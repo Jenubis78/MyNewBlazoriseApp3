@@ -14,17 +14,28 @@
             <BarItem>
                 <BarLink To="/">
                     <BarIcon IconName="IconName.Dashboard" />
-                    Dashboard
+                    Monitoring
                 </BarLink>
             </BarItem>
             <BarItem>
                 <BarDropdown @bind-Visible="pagesBarVisible">
                     <BarDropdownToggle>
                         <BarIcon IconName="IconName.Edit" />
-                        Pages
+                        Provision
                     </BarDropdownToggle>
                     <BarDropdownMenu>
-                        <BarDropdownItem To="/simple-form">Simple Form</BarDropdownItem>
+                        <BarDropdownItem To="/simple-form">Placeholder</BarDropdownItem>
+                    </BarDropdownMenu>
+                </BarDropdown>
+            </BarItem>
+            <BarItem>
+                <BarDropdown @bind-Visible="pagesBarVisible">
+                    <BarDropdownToggle>
+                        <BarIcon IconName="IconName.Edit" />
+                        SD-WAN
+                    </BarDropdownToggle>
+                    <BarDropdownMenu>
+                        <BarDropdownItem To="/simple-form">Placeholder</BarDropdownItem>
                     </BarDropdownMenu>
                 </BarDropdown>
             </BarItem>
