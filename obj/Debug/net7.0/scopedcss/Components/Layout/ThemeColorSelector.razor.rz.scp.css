@@ -1,0 +1,16 @@
+.demo-theme-color-item[b-xj8yvelu72] {
+    display: table-cell;
+    width: 36px;
+    height: 36px;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+    .demo-theme-color-item .material-icons[b-xj8yvelu72] {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
