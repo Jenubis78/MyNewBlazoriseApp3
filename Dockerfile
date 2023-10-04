@@ -9,7 +9,7 @@ ENV ASPNETCORE_URLS=http://+:7297
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM --platform=linux/amd64 mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG configuration=Release
 WORKDIR /src
 COPY ["MyNewBlazoriseApp3.csproj", "./"]
