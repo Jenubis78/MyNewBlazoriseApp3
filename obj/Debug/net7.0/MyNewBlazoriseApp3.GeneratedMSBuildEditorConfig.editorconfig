@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVG9wTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/LiveDashboard/LiveDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaXZlRGFzaGJvYXJkXExpdmVEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/TodoApp/TodoItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvQXBwXFRvZG9JdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

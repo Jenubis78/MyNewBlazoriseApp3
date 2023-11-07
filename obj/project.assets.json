@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Blazorise/1.3.1": {
+      "Blazorise/1.3.2": {
         "type": "package",
         "dependencies": {
           "Blazorise.Licensing": "1.1.0",
           "DeepCloner": "0.10.4",
-          "Microsoft.AspNetCore.Components": "7.0.10",
-          "Microsoft.AspNetCore.Components.Web": "7.0.10",
+          "Microsoft.AspNetCore.Components": "7.0.12",
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
         },
         "compile": {
@@ -28,12 +28,12 @@
           "buildMultiTargeting/Blazorise.props": {}
         }
       },
-      "Blazorise.Bootstrap5/1.3.1": {
+      "Blazorise.Bootstrap5/1.3.2": {
         "type": "package",
         "dependencies": {
-          "Blazorise": "1.3.1",
-          "Microsoft.AspNetCore.Components": "7.0.10",
-          "Microsoft.AspNetCore.Components.Web": "7.0.10",
+          "Blazorise": "1.3.2",
+          "Microsoft.AspNetCore.Components": "7.0.12",
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
         },
         "compile": {
@@ -49,12 +49,64 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
-      "Blazorise.Icons.FontAwesome/1.3.1": {
+      "Blazorise.Charts/1.3.2": {
         "type": "package",
         "dependencies": {
-          "Blazorise": "1.3.1",
-          "Microsoft.AspNetCore.Components": "7.0.10",
-          "Microsoft.AspNetCore.Components.Web": "7.0.10",
+          "Blazorise": "1.3.2",
+          "Lambda2Js": "3.1.4",
+          "Microsoft.AspNetCore.Components": "7.0.12",
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Blazorise.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Blazorise.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.Charts.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.Charts.props": {}
+        }
+      },
+      "Blazorise.Charts.Streaming/1.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.3.2",
+          "Blazorise.Charts": "1.3.2",
+          "Microsoft.AspNetCore.Components": "7.0.12",
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Blazorise.Charts.Streaming.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Blazorise.Charts.Streaming.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.Charts.Streaming.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.Charts.Streaming.props": {}
+        }
+      },
+      "Blazorise.Icons.FontAwesome/1.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.3.2",
+          "Microsoft.AspNetCore.Components": "7.0.12",
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
         },
         "compile": {
@@ -89,10 +141,23 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/7.0.10": {
+      "Lambda2Js/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Lambda2Js.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lambda2Js.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/7.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "7.0.10",
+          "Microsoft.AspNetCore.Metadata": "7.0.12",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.1",
           "Microsoft.Extensions.Options": "7.0.1"
         },
@@ -107,11 +172,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/7.0.10": {
+      "Microsoft.AspNetCore.Components/7.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "7.0.10",
-          "Microsoft.AspNetCore.Components.Analyzers": "7.0.10"
+          "Microsoft.AspNetCore.Authorization": "7.0.12",
+          "Microsoft.AspNetCore.Components.Analyzers": "7.0.12"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.dll": {
@@ -124,16 +189,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/7.0.10": {
+      "Microsoft.AspNetCore.Components.Analyzers/7.0.12": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/7.0.10": {
+      "Microsoft.AspNetCore.Components.Forms/7.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "7.0.10"
+          "Microsoft.AspNetCore.Components": "7.0.12"
         },
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -146,13 +211,13 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/7.0.10": {
+      "Microsoft.AspNetCore.Components.Web/7.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "7.0.10",
-          "Microsoft.AspNetCore.Components.Forms": "7.0.10",
+          "Microsoft.AspNetCore.Components": "7.0.12",
+          "Microsoft.AspNetCore.Components.Forms": "7.0.12",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.JSInterop": "7.0.10",
+          "Microsoft.JSInterop": "7.0.12",
           "System.IO.Pipelines": "7.0.0"
         },
         "compile": {
@@ -166,7 +231,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Metadata/7.0.10": {
+      "Microsoft.AspNetCore.Metadata/7.0.12": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -266,7 +331,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/7.0.10": {
+      "Microsoft.JSInterop/7.0.12": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.JSInterop.dll": {
@@ -1580,16 +1645,16 @@
     }
   },
   "libraries": {
-    "Blazorise/1.3.1": {
-      "sha512": "avf2je4DckbXIOZ+jQJm0ei3OntJ0MLfWUgPrKy6oS8KWXDWsWSRnJLLVb8x1h8e8kc499neV7sI3ACRI6zaIg==",
+    "Blazorise/1.3.2": {
+      "sha512": "Xgd8EbAvNVooBUrQ06T8y/cTFPa2Gz3eCE3Ebt5PL9wUCFFh7z23Hn6A4Gzmnxr956L80H/YibauPFeF17h1Sw==",
       "type": "package",
-      "path": "blazorise/1.3.1",
+      "path": "blazorise/1.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Blazorise.png",
         "LICENSE.md",
-        "blazorise.1.3.1.nupkg.sha512",
+        "blazorise.1.3.2.nupkg.sha512",
         "blazorise.nuspec",
         "build/Blazorise.props",
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
@@ -1639,16 +1704,16 @@
         "staticwebassets/vendors/sha512.js"
       ]
     },
-    "Blazorise.Bootstrap5/1.3.1": {
-      "sha512": "0Sqv2tpUP/E/g0h2dcc+g0ROyooS5p7p6smnGv0j3iSbmcznlrgcAxsvHnwzhaH3nAJeh3NcqtB9uFvvW3T1JA==",
+    "Blazorise.Bootstrap5/1.3.2": {
+      "sha512": "L/gNeimZBxI9+w/bSUp6KFxLuRG3uVcLosFNzBHs/WDKOKMfoZgrD5ZalyZ2h3n5b1PfEsvFdk1/6QWGp1rjYA==",
       "type": "package",
-      "path": "blazorise.bootstrap5/1.3.1",
+      "path": "blazorise.bootstrap5/1.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Blazorise.png",
         "LICENSE.md",
-        "blazorise.bootstrap5.1.3.1.nupkg.sha512",
+        "blazorise.bootstrap5.1.3.2.nupkg.sha512",
         "blazorise.bootstrap5.nuspec",
         "build/Blazorise.Bootstrap5.props",
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
@@ -1663,16 +1728,65 @@
         "staticwebassets/tooltip.js"
       ]
     },
-    "Blazorise.Icons.FontAwesome/1.3.1": {
-      "sha512": "X6gLxuq8WN2F7smCdC0tjnYahTSKHCddIHONDpYOWsaW17E9ImikwCxCKXYt2KBM99IaqPD+tiA02JCjbEvRtQ==",
+    "Blazorise.Charts/1.3.2": {
+      "sha512": "2QHro1xqFWIBR1QPVKsowFccDdsg+Nl6w7M6+SaHHlczfKotmchRp4oyt7fnUwdCS+8k+Evzk8s43S02I5kUbw==",
       "type": "package",
-      "path": "blazorise.icons.fontawesome/1.3.1",
+      "path": "blazorise.charts/1.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Blazorise.png",
         "LICENSE.md",
-        "blazorise.icons.fontawesome.1.3.1.nupkg.sha512",
+        "blazorise.charts.1.3.2.nupkg.sha512",
+        "blazorise.charts.nuspec",
+        "build/Blazorise.Charts.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.Charts.props",
+        "buildTransitive/Blazorise.Charts.props",
+        "lib/net6.0/Blazorise.Charts.dll",
+        "lib/net6.0/Blazorise.Charts.xml",
+        "lib/net7.0/Blazorise.Charts.dll",
+        "lib/net7.0/Blazorise.Charts.xml",
+        "lib/net8.0/Blazorise.Charts.dll",
+        "lib/net8.0/Blazorise.Charts.xml",
+        "staticwebassets/charts.js",
+        "staticwebassets/utilities.js"
+      ]
+    },
+    "Blazorise.Charts.Streaming/1.3.2": {
+      "sha512": "37GQeCFKVMuQSMkZ+BjhwHM8ZDj9kkn6AGcRfIsuob4O8b/rynSm0Q9aql9yphkBiHhRQc24Kgi/BwJQB1iekA==",
+      "type": "package",
+      "path": "blazorise.charts.streaming/1.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.charts.streaming.1.3.2.nupkg.sha512",
+        "blazorise.charts.streaming.nuspec",
+        "build/Blazorise.Charts.Streaming.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.Charts.Streaming.props",
+        "buildTransitive/Blazorise.Charts.Streaming.props",
+        "lib/net6.0/Blazorise.Charts.Streaming.dll",
+        "lib/net6.0/Blazorise.Charts.Streaming.xml",
+        "lib/net7.0/Blazorise.Charts.Streaming.dll",
+        "lib/net7.0/Blazorise.Charts.Streaming.xml",
+        "lib/net8.0/Blazorise.Charts.Streaming.dll",
+        "lib/net8.0/Blazorise.Charts.Streaming.xml",
+        "staticwebassets/charts.streaming.js"
+      ]
+    },
+    "Blazorise.Icons.FontAwesome/1.3.2": {
+      "sha512": "wu6LGD4YMGpoKr30OQscMXWWCo0uVP1mVoEAvy8lXhwqRlEgeCxNF90B5vxPbFfVzHY+6HqJ1GPdzAvGqOPRAg==",
+      "type": "package",
+      "path": "blazorise.icons.fontawesome/1.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.icons.fontawesome.1.3.2.nupkg.sha512",
         "blazorise.icons.fontawesome.nuspec",
         "lib/net6.0/Blazorise.Icons.FontAwesome.dll",
         "lib/net7.0/Blazorise.Icons.FontAwesome.dll",
@@ -1710,10 +1824,29 @@
         "lib/netstandard1.3/DeepCloner.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/7.0.10": {
-      "sha512": "ZAAQZfho51GaJ+Pr2e6TVSDQu8lQ09xHJW67OZwuKtcWbgE4LaKmz6U5z7TYTctWxPQD5uZC1+U1hZUcn0g5Zw==",
+    "Lambda2Js/3.1.4": {
+      "sha512": "yxPJ5n+jUdjTZSItFj2wx5uFGm8iN6Gt42apqnEq0Zm5R6GgueZFFl+GDSe/CEogMSaBRw8kRG3yZm8ABFWXGQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/7.0.10",
+      "path": "lambda2js/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon-512.png",
+        "lambda2js.3.1.4.nupkg.sha512",
+        "lambda2js.nuspec",
+        "lib/net40/Lambda2Js.dll",
+        "lib/net40/Lambda2Js.xml",
+        "lib/netstandard1.0/Lambda2Js.dll",
+        "lib/netstandard1.0/Lambda2Js.xml",
+        "lib/netstandard2.0/Lambda2Js.dll",
+        "lib/netstandard2.0/Lambda2Js.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/7.0.12": {
+      "sha512": "z++ru5sKWIuYXhrrlIAOfRqeLtULY6RvjHLKVF5AP7zMmc/VK3WmQAbyno7VVqVojVtL5WDJ4z/+n5W8zMweqw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1725,14 +1858,14 @@
         "lib/net7.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/7.0.10": {
-      "sha512": "BX8U5jpbMG8jBecMGrjl1ZjxxFUpJCcGiIaunP4EFSQKxomM7mjjfskkbQhruOy8c60aeiacRx86gXGQ0uK6TA==",
+    "Microsoft.AspNetCore.Components/7.0.12": {
+      "sha512": "Msw7ZyFKVbELEh6rsTG+LxlTJUxYgvkG7Zs5vx5cD4PTUcbxfNQoqexmLS1nikHwP2XGidkqwJIkrE8JU2IWZA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/7.0.10",
+      "path": "microsoft.aspnetcore.components/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1740,14 +1873,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.AspNetCore.Components.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.7.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/7.0.10": {
-      "sha512": "F1BPBk1koIKmUDGEoH/4qZaGI2+9T9HbGWtvaoWRyyOIsa2/AIJ1aWk08TGkFQuVExSHqJgi3Wb82ApnXDFJZA==",
+    "Microsoft.AspNetCore.Components.Analyzers/7.0.12": {
+      "sha512": "4KrR8km+lOTRUsNVe4pumHUNvJK7UQUzVSqhTYXTz/wwU+eQ9TJ7QZn8xcrcbFCz6PzoG5esviCRC31mHAWBSQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/7.0.10",
+      "path": "microsoft.aspnetcore.components.analyzers/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1756,14 +1889,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.7.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/7.0.10": {
-      "sha512": "J1kLcXnO0gtGZjluTHfnZDVpp/EJtXLKULVyqD/qGpCujguRcyRS42PeaoZrI8ALnWNmCvIrOYLVkTiG1/6fJw==",
+    "Microsoft.AspNetCore.Components.Forms/7.0.12": {
+      "sha512": "5hDY+3ygOGexxF4utjq04F9QzTZaztlgwIECTOfraHq2OogfJiwBl7RKkjA4uvUbtu03xW+HVO0f6suCv60Psg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/7.0.10",
+      "path": "microsoft.aspnetcore.components.forms/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1771,14 +1904,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.7.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/7.0.10": {
-      "sha512": "voBVhtYNZ9fGtGZ2fa172y9HSe/3Ee3BavFxRQCLJCvg+ynDuQTjsB6f76xLx+ySXKHZCyAyJmN+HTBo7duW0Q==",
+    "Microsoft.AspNetCore.Components.Web/7.0.12": {
+      "sha512": "Wjil06HJWFecM9tUR+DQy5UGA9Qee2j0TXTaX5/CpGFkgg7jqhG47riSXJhGvH794ta3YoT5MiAjDFOmQMN5gg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/7.0.10",
+      "path": "microsoft.aspnetcore.components.web/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1786,14 +1919,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net7.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net7.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.7.0.12.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/7.0.10": {
-      "sha512": "czsM8xLZdCyATOWwaSUf8k9/D0Il6RTmUh7QQpQDD/J1KeVMd0C4L6tDpb1U+OMmECDG1xjrKnXBJP0SoeCjhg==",
+    "Microsoft.AspNetCore.Metadata/7.0.12": {
+      "sha512": "m01ZO1o6br7XyQ7yMaoJkaBgL02sVVWgNpwGyLFxPVc8op/AVfw1yPbTeLkgBfDjUga52gbcxnMmPPk/Ahy+lQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/7.0.10",
+      "path": "microsoft.aspnetcore.metadata/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1805,7 +1938,7 @@
         "lib/net7.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.7.0.12.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -1993,10 +2126,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/7.0.10": {
-      "sha512": "MH5KValnvohy+bXUz7Bf72avLqi+95uLARJCQ14s+rjW0km5qJOY6WmuWQHF3eLBTjq4T0iRoGD7/MfKrLztzA==",
+    "Microsoft.JSInterop/7.0.12": {
+      "sha512": "AJYoootrG2G5ugU+2oXfGVbb6nh8oams4vTznZQIwJEibaCyKi5Q/9oQuLFG5CWjGllTZeO4Baj3H5EORWnwpw==",
       "type": "package",
-      "path": "microsoft.jsinterop/7.0.10",
+      "path": "microsoft.jsinterop/7.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2004,7 +2137,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.JSInterop.dll",
         "lib/net7.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.7.0.10.nupkg.sha512",
+        "microsoft.jsinterop.7.0.12.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
@@ -5309,6 +5442,8 @@
     "net7.0": [
       "Blazorise >= 1.3.*",
       "Blazorise.Bootstrap5 >= 1.3.*",
+      "Blazorise.Charts >= 1.3.2",
+      "Blazorise.Charts.Streaming >= 1.3.2",
       "Blazorise.Icons.FontAwesome >= 1.3.*"
     ]
   },
@@ -5367,6 +5502,14 @@
           "Blazorise.Bootstrap5": {
             "target": "Package",
             "version": "[1.3.*, )"
+          },
+          "Blazorise.Charts": {
+            "target": "Package",
+            "version": "[1.3.2, )"
+          },
+          "Blazorise.Charts.Streaming": {
+            "target": "Package",
+            "version": "[1.3.2, )"
           },
           "Blazorise.Icons.FontAwesome": {
             "target": "Package",

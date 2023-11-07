@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CBwnAFM18VidlYB2fmfxw59ejO8LIp3YYdKNLwTUxeQ=",
+  "Hash": "jbGAcCpCrqK5vGL9yHuPK3qsUHJxLy41i2lxKe2IgqM=",
   "Source": "MyNewBlazoriseApp3",
   "BasePath": "_content/MyNewBlazoriseApp3",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\blazorise.bootstrap5.css",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\blazorise.bootstrap5.css",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "blazorise.bootstrap5.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\blazorise.bootstrap5.css"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\blazorise.bootstrap5.css"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\blazorise.bootstrap5.min.css",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\blazorise.bootstrap5.min.css",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "blazorise.bootstrap5.min.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\blazorise.bootstrap5.min.css"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\blazorise.bootstrap5.min.css"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\modal.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\modal.js",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "modal.js",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\modal.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\modal.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\tooltip.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\tooltip.js",
       "SourceId": "Blazorise.Bootstrap5",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise.Bootstrap5",
       "RelativePath": "tooltip.js",
       "AssetKind": "All",
@@ -90,13 +90,70 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.1\\staticwebassets\\tooltip.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.bootstrap5\\1.3.2\\staticwebassets\\tooltip.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\blazorise.css",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts.streaming\\1.3.2\\staticwebassets\\charts.streaming.js",
+      "SourceId": "Blazorise.Charts.Streaming",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts.streaming\\1.3.2\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.Charts.Streaming",
+      "RelativePath": "charts.streaming.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts.streaming\\1.3.2\\staticwebassets\\charts.streaming.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts\\1.3.2\\staticwebassets\\charts.js",
+      "SourceId": "Blazorise.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts\\1.3.2\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.Charts",
+      "RelativePath": "charts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts\\1.3.2\\staticwebassets\\charts.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts\\1.3.2\\staticwebassets\\utilities.js",
+      "SourceId": "Blazorise.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts\\1.3.2\\staticwebassets\\",
+      "BasePath": "_content/Blazorise.Charts",
+      "RelativePath": "utilities.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts\\1.3.2\\staticwebassets\\utilities.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\blazorise.css",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "blazorise.css",
       "AssetKind": "All",
@@ -109,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\blazorise.css"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\blazorise.css"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\blazorise.min.css",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\blazorise.min.css",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "blazorise.min.css",
       "AssetKind": "All",
@@ -128,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\blazorise.min.css"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\blazorise.min.css"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\breakpoint.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\breakpoint.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "breakpoint.js",
       "AssetKind": "All",
@@ -147,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\breakpoint.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\breakpoint.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\button.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\button.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "button.js",
       "AssetKind": "All",
@@ -166,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\button.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\button.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\closable.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\closable.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "closable.js",
       "AssetKind": "All",
@@ -185,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\closable.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\closable.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\colorPicker.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\colorPicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "colorPicker.js",
       "AssetKind": "All",
@@ -204,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\colorPicker.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\colorPicker.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\datePicker.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\datePicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "datePicker.js",
       "AssetKind": "All",
@@ -223,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\datePicker.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\datePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\dragDrop.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\dragDrop.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "dragDrop.js",
       "AssetKind": "All",
@@ -242,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\dragDrop.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\dragDrop.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\dropdown.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\dropdown.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "dropdown.js",
       "AssetKind": "All",
@@ -261,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\dropdown.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\dropdown.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\fileEdit.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\fileEdit.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "fileEdit.js",
       "AssetKind": "All",
@@ -280,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\fileEdit.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\fileEdit.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\filePicker.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\filePicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "filePicker.js",
       "AssetKind": "All",
@@ -299,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\filePicker.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\filePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\floatingUi.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\floatingUi.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "floatingUi.js",
       "AssetKind": "All",
@@ -318,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\floatingUi.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\floatingUi.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\inputMask.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\inputMask.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "inputMask.js",
       "AssetKind": "All",
@@ -337,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\inputMask.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\inputMask.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\io.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\io.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "io.js",
       "AssetKind": "All",
@@ -356,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\io.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\io.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\memoEdit.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\memoEdit.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "memoEdit.js",
       "AssetKind": "All",
@@ -375,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\memoEdit.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\memoEdit.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\numericPicker.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\numericPicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "numericPicker.js",
       "AssetKind": "All",
@@ -394,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\numericPicker.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\numericPicker.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\observer.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\observer.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "observer.js",
       "AssetKind": "All",
@@ -413,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\observer.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\observer.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\table.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\table.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "table.js",
       "AssetKind": "All",
@@ -432,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\table.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\table.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\textEdit.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\textEdit.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "textEdit.js",
       "AssetKind": "All",
@@ -451,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\textEdit.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\textEdit.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\theme.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\theme.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "theme.js",
       "AssetKind": "All",
@@ -470,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\theme.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\theme.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\timePicker.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\timePicker.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "timePicker.js",
       "AssetKind": "All",
@@ -489,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\timePicker.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\timePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\tooltip.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\tooltip.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "tooltip.js",
       "AssetKind": "All",
@@ -508,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\tooltip.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\tooltip.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\utilities.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\utilities.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "utilities.js",
       "AssetKind": "All",
@@ -527,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\utilities.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\utilities.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\DateTimeMaskValidator.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\DateTimeMaskValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/DateTimeMaskValidator.js",
       "AssetKind": "All",
@@ -546,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\DateTimeMaskValidator.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\DateTimeMaskValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\NoValidator.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\NoValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/NoValidator.js",
       "AssetKind": "All",
@@ -565,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\NoValidator.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\NoValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\NumericMaskValidator.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\NumericMaskValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/NumericMaskValidator.js",
       "AssetKind": "All",
@@ -584,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\NumericMaskValidator.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\NumericMaskValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\RegExMaskValidator.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\RegExMaskValidator.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "validators/RegExMaskValidator.js",
       "AssetKind": "All",
@@ -603,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\validators\\RegExMaskValidator.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\validators\\RegExMaskValidator.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\autoNumeric.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\autoNumeric.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/autoNumeric.js",
       "AssetKind": "All",
@@ -622,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\autoNumeric.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\autoNumeric.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\Behave.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\Behave.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/Behave.js",
       "AssetKind": "All",
@@ -641,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\Behave.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\Behave.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\flatpickr.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\flatpickr.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/flatpickr.js",
       "AssetKind": "All",
@@ -660,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\flatpickr.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\flatpickr.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\floating-ui-core.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\floating-ui-core.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/floating-ui-core.js",
       "AssetKind": "All",
@@ -679,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\floating-ui-core.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\floating-ui-core.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\floating-ui.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\floating-ui.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/floating-ui.js",
       "AssetKind": "All",
@@ -698,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\floating-ui.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\floating-ui.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\inputmask.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\inputmask.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/inputmask.js",
       "AssetKind": "All",
@@ -717,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\inputmask.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\inputmask.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\jsencrypt.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\jsencrypt.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/jsencrypt.js",
       "AssetKind": "All",
@@ -736,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\jsencrypt.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\jsencrypt.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\Pickr.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\Pickr.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/Pickr.js",
       "AssetKind": "All",
@@ -755,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\Pickr.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\Pickr.js"
     },
     {
-      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\sha512.js",
+      "Identity": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\sha512.js",
       "SourceId": "Blazorise",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\",
       "BasePath": "_content/Blazorise",
       "RelativePath": "vendors/sha512.js",
       "AssetKind": "All",
@@ -774,7 +831,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.1\\staticwebassets\\vendors\\sha512.js"
+      "OriginalItemSpec": "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise\\1.3.2\\staticwebassets\\vendors\\sha512.js"
     },
     {
       "Identity": "C:\\Users\\Jenubis\\Projects\\MyNewBlazoriseApp3\\MyNewBlazoriseApp3\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MyNewBlazoriseApp3.styles.css",
