@@ -47,3 +47,6 @@ C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\obj\Debug\net7.0
 C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\bin\Debug\net7.0\Blazorise.Charts.dll
 C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\bin\Debug\net7.0\Blazorise.Charts.Streaming.dll
 C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\bin\Debug\net7.0\Lambda2Js.dll
+C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\bin\Debug\net7.0\Brushtail.FontAwesome.Blazor.dll
+C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\bin\Debug\net7.0\Brushtail.FontAwesome.Core.dll
+C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll

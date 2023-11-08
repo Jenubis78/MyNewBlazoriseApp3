@@ -1,3 +1,11 @@
-﻿@using MyNewBlazoriseApp3.Components.LiveDashboard
+﻿@using MyNewBlazoriseApp3.Components.Layout.Dashboard
+@using MyNewBlazoriseApp3.Components.LiveDashboard
 @page "/apps/todo"
-<LiveDashboard />
+<Row>
+    <Column ColumnSize="ColumnSize.Is4">
+<LiveDashboard  />
+</Column>
+<Column ColumnSize="ColumnSize.Is4.Is4.WithOffset">
+<BandwithDashboard  />
+</Column>
+</Row>

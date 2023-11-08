@@ -1,4 +1,5 @@
-<LineChart @ref="@horizontalLineChart" TItem="LiveDataPoint" OptionsObject="@horizontalLineChartOptions">
+
+<LineChart Size=Small @ref="@horizontalLineChart" TItem="LiveDataPoint" OptionsObject="@horizontalLineChartOptions">
     <ChartStreaming @ref="@chartStreaming"
                     TItem="LiveDataPoint"
                     Options="new ChartStreamingOptions { Delay = 2000 }"
@@ -6,20 +7,56 @@
 </LineChart>
 
 <Row>
+    
     <Column>
-        <Button Color="Color.Primary" Clicked="@(()=>chartStreaming.Pause())">Pause</Button>
-        <Button Color="Color.Primary" Clicked="@(()=>chartStreaming.Play())">Play</Button>
+   
+        <Button Clicked="@(async () => await Play())"><FontAwesomeIcon Icon="@FontAwesome.Play" Class="@playclass" /></Button>
+        <Button Clicked="@(async () => await Pause())"><FontAwesomeIcon Icon="@FontAwesome.Pause" Class="@pauseclass"/></Button>
+    
+    
+        
+        
+        
     </Column>
 </Row>
+
 @code{
     LineChart<LiveDataPoint> horizontalLineChart;
     ChartStreaming<LiveDataPoint>  chartStreaming;
     Random random = new Random( DateTime.Now.Millisecond );
 
+    string pauseclass = "fa-solid ";
+    string playclass = "fa-solid fa-fade" ;
+
+  /*  @if(chartStreaming.Options.Pause.Value==false){
+        <Button Clicked="@(()=>chartStreaming.Play())"><FontAwesomeIcon Icon="@FontAwesome.Play" Class="fa-solid fa-fade" /></Button>
+        <Button Clicked="@(()=>chartStreaming.Pause())"><FontAwesomeIcon Icon="@FontAwesome.Pause" Class="fa-solid"/></Button>
+    }
+    else{
+        <Button Clicked="@(()=>chartStreaming.Pause())"><FontAwesomeIcon Icon="@FontAwesome.Pause" Class="fa-solid fa-fade"/></Button>
+        <Button Clicked="@(()=>chartStreaming.Play())"><FontAwesomeIcon Icon="@FontAwesome.Play" Class="fa-solid" /></Button>
+        }
+*/
     string[] Labels = { "Red", "Blue", "Yellow", "Green", "Purple", "Orange" };
     List<string> backgroundColors = new List<string> { ChartColor.FromRgba( 255, 99, 132, 0.2f ), ChartColor.FromRgba( 54, 162, 235, 0.2f ), ChartColor.FromRgba( 255, 206, 86, 0.2f ), ChartColor.FromRgba( 75, 192, 192, 0.2f ), ChartColor.FromRgba( 153, 102, 255, 0.2f ), ChartColor.FromRgba( 255, 159, 64, 0.2f ) };
     List<string> borderColors = new List<string> { ChartColor.FromRgba( 255, 99, 132, 1f ), ChartColor.FromRgba( 54, 162, 235, 1f ), ChartColor.FromRgba( 255, 206, 86, 1f ), ChartColor.FromRgba( 75, 192, 192, 1f ), ChartColor.FromRgba( 153, 102, 255, 1f ), ChartColor.FromRgba( 255, 159, 64, 1f ) };
+async Task Pause() {
+    
+    await chartStreaming.Pause();
+   pauseclass = "fa-solid fa-fade";
+   playclass = "fa-solid";
+         this.StateHasChanged();
+     
+} 
 
+async Task Play() {
+    
+    await chartStreaming.Play();
+   playclass = "fa-solid fa-fade";
+   pauseclass = "fa-solid";
+         this.StateHasChanged();
+     
+} 
     public struct LiveDataPoint
     {
         public object X { get; set; }
@@ -73,9 +110,9 @@
             Label = "Dataset 1 (linear interpolation)",
             BackgroundColor = backgroundColors[0],
             BorderColor = borderColors[0],
-            Fill = false,
+            Fill = true,
             Tension = 0,
-            BorderDash = new List<int> { 8, 4 },
+            //BorderDash = new List<int> { 8, 4 },
         };
     }
 

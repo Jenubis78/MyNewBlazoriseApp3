@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1Zro31VZqcMQrnF0+21KkfLqyT8zScrWBOpIQ+jvBlTl/Vbl/s5bJJIn1MYRhwk4OM0M6nzEeJ/hoY/Jozv8Jg==",
+  "dgSpecHash": "nomEsJ6Lu7gBVXTGis9Da81pmP/+feHZybKM3cacQnLvzUgSkdFUAxhW8S1CjQYETNGgUHtrRSRY1teh1TTa/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jenubis\\Projects\\MyNewBlazoriseApp3\\MyNewBlazoriseApp3\\MyNewBlazoriseApp3.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.charts.streaming\\1.3.2\\blazorise.charts.streaming.1.3.2.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.icons.fontawesome\\1.3.2\\blazorise.icons.fontawesome.1.3.2.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\blazorise.licensing\\1.1.0\\blazorise.licensing.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jenubis\\.nuget\\packages\\brushtail.fontawesome.blazor\\1.0.16\\brushtail.fontawesome.blazor.1.0.16.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\deepcloner\\0.10.4\\deepcloner.0.10.4.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\lambda2js\\3.1.4\\lambda2js.3.1.4.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.12\\microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
@@ -20,6 +21,8 @@
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.12\\microsoft.aspnetcore.metadata.7.0.12.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\7.0.12\\microsoft.extensions.fileproviders.embedded.7.0.12.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
@@ -27,6 +30,7 @@
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jenubis\\.nuget\\packages\\mikrotik.net\\1.3.0\\mikrotik.net.1.3.0.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Jenubis\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

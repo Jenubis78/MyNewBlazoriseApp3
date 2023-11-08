@@ -125,6 +125,35 @@
           "lib/net7.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Brushtail.FontAwesome.Blazor/1.0.16": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
+          "Microsoft.Extensions.FileProviders.Embedded": "7.0.12"
+        },
+        "compile": {
+          "lib/net7.0/Brushtail.FontAwesome.Blazor.dll": {
+            "related": ".runtimeconfig.json"
+          },
+          "lib/net7.0/Brushtail.FontAwesome.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Brushtail.FontAwesome.Blazor.dll": {
+            "related": ".runtimeconfig.json"
+          },
+          "lib/net7.0/Brushtail.FontAwesome.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Brushtail.FontAwesome.Blazor.targets": {},
+          "buildTransitive/Brushtail.FontAwesome.Blazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Brushtail.FontAwesome.Blazor.props": {}
+        }
+      },
       "DeepCloner/0.10.4": {
         "type": "package",
         "dependencies": {
@@ -279,6 +308,47 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/7.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/_._": {}
+        }
+      },
       "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
         "type": "package",
         "compile": {
@@ -373,6 +443,15 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Mikrotik.Net/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mikrotik.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mikrotik.Net.dll": {}
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -1808,6 +1887,76 @@
         "lib/net7.0/Blazorise.Licensing.dll"
       ]
     },
+    "Brushtail.FontAwesome.Blazor/1.0.16": {
+      "sha512": "9LbPDT3lVjyoDu8J20FPlHL+n/1VcE+DE4AQ+Dfp7nLgbiD8coStdN7JSbDFax+bKCsYlSqkV7u0i9vhw3qzng==",
+      "type": "package",
+      "path": "brushtail.fontawesome.blazor/1.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "README.md",
+        "brushtail.fontawesome.blazor.1.0.16.nupkg.sha512",
+        "brushtail.fontawesome.blazor.nuspec",
+        "build/Brushtail.FontAwesome.Blazor.props",
+        "build/Brushtail.FontAwesome.Blazor.targets",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Brushtail.FontAwesome.Blazor.props",
+        "buildTransitive/Brushtail.FontAwesome.Blazor.props",
+        "lib/net6.0/Brushtail.FontAwesome.Blazor.dll",
+        "lib/net6.0/Brushtail.FontAwesome.Blazor.runtimeconfig.json",
+        "lib/net6.0/Brushtail.FontAwesome.Core.dll",
+        "lib/net7.0/Brushtail.FontAwesome.Blazor.dll",
+        "lib/net7.0/Brushtail.FontAwesome.Blazor.runtimeconfig.json",
+        "lib/net7.0/Brushtail.FontAwesome.Core.dll",
+        "lib/net8.0/Brushtail.FontAwesome.Blazor.dll",
+        "lib/net8.0/Brushtail.FontAwesome.Blazor.runtimeconfig.json",
+        "lib/net8.0/Brushtail.FontAwesome.Core.dll",
+        "staticwebassets/font-awesome/css/all.css",
+        "staticwebassets/font-awesome/css/all.min.css",
+        "staticwebassets/font-awesome/css/brands.css",
+        "staticwebassets/font-awesome/css/brands.min.css",
+        "staticwebassets/font-awesome/css/fontawesome.css",
+        "staticwebassets/font-awesome/css/fontawesome.min.css",
+        "staticwebassets/font-awesome/css/regular.css",
+        "staticwebassets/font-awesome/css/regular.min.css",
+        "staticwebassets/font-awesome/css/solid.css",
+        "staticwebassets/font-awesome/css/solid.min.css",
+        "staticwebassets/font-awesome/css/svg-with-js.css",
+        "staticwebassets/font-awesome/css/svg-with-js.min.css",
+        "staticwebassets/font-awesome/css/v4-font-face.css",
+        "staticwebassets/font-awesome/css/v4-font-face.min.css",
+        "staticwebassets/font-awesome/css/v4-shims.css",
+        "staticwebassets/font-awesome/css/v4-shims.min.css",
+        "staticwebassets/font-awesome/css/v5-font-face.css",
+        "staticwebassets/font-awesome/css/v5-font-face.min.css",
+        "staticwebassets/font-awesome/js/all.js",
+        "staticwebassets/font-awesome/js/all.min.js",
+        "staticwebassets/font-awesome/js/brands.js",
+        "staticwebassets/font-awesome/js/brands.min.js",
+        "staticwebassets/font-awesome/js/conflict-detection.js",
+        "staticwebassets/font-awesome/js/conflict-detection.min.js",
+        "staticwebassets/font-awesome/js/fontawesome.js",
+        "staticwebassets/font-awesome/js/fontawesome.min.js",
+        "staticwebassets/font-awesome/js/regular.js",
+        "staticwebassets/font-awesome/js/regular.min.js",
+        "staticwebassets/font-awesome/js/solid.js",
+        "staticwebassets/font-awesome/js/solid.min.js",
+        "staticwebassets/font-awesome/js/v4-shims.js",
+        "staticwebassets/font-awesome/js/v4-shims.min.js",
+        "staticwebassets/font-awesome/sprites/brands.svg",
+        "staticwebassets/font-awesome/sprites/regular.svg",
+        "staticwebassets/font-awesome/sprites/solid.svg",
+        "staticwebassets/font-awesome/webfonts/fa-brands-400.ttf",
+        "staticwebassets/font-awesome/webfonts/fa-brands-400.woff2",
+        "staticwebassets/font-awesome/webfonts/fa-regular-400.ttf",
+        "staticwebassets/font-awesome/webfonts/fa-regular-400.woff2",
+        "staticwebassets/font-awesome/webfonts/fa-solid-900.ttf",
+        "staticwebassets/font-awesome/webfonts/fa-solid-900.woff2",
+        "staticwebassets/font-awesome/webfonts/fa-v4compatibility.ttf",
+        "staticwebassets/font-awesome/webfonts/fa-v4compatibility.woff2"
+      ]
+    },
     "DeepCloner/0.10.4": {
       "sha512": "z8ASd9bjXkVjcnIrwUKrxb/bPi/gvG5NX3nv7MHK/5QrlYwbK7N5ZTDNaYXQ5qunaUCMGN0UHdgkNARIEBTEyA==",
       "type": "package",
@@ -1998,6 +2147,56 @@
         "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
+      "sha512": "NyawiW9ZT/liQb34k9YqBSNPLuuPkrjMgQZ24Y/xXX1RoiBkLUdPMaQTmxhZ5TYu8ZKZ9qayzil75JX95vGQUg==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/7.0.12": {
+      "sha512": "Af3M929S/v2NIBfYxRAp+muDKm3nn6KLbtFuFRm0Q6yZKIC/lQovmUHL5c7sycbMjo/gpmR+6w5IcLS/FEm+pw==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/7.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.props",
+        "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.props",
+        "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "microsoft.extensions.fileproviders.embedded.7.0.12.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.nuspec",
+        "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
@@ -2207,6 +2406,18 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Mikrotik.Net/1.3.0": {
+      "sha512": "LuPGCI+aOZU0Vowg5u81hTva/9pP8ibMe5tVy8k9/cas4Z3McohFYiPZYTFAfWrii+i/3vuzBp5C8V7pZkb/iw==",
+      "type": "package",
+      "path": "mikrotik.net/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Mikrotik.Net.dll",
+        "mikrotik.net.1.3.0.nupkg.sha512",
+        "mikrotik.net.nuspec"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -5444,7 +5655,9 @@
       "Blazorise.Bootstrap5 >= 1.3.*",
       "Blazorise.Charts >= 1.3.2",
       "Blazorise.Charts.Streaming >= 1.3.2",
-      "Blazorise.Icons.FontAwesome >= 1.3.*"
+      "Blazorise.Icons.FontAwesome >= 1.3.*",
+      "Brushtail.FontAwesome.Blazor >= 1.0.16",
+      "Mikrotik.Net >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -5514,6 +5727,14 @@
           "Blazorise.Icons.FontAwesome": {
             "target": "Package",
             "version": "[1.3.*, )"
+          },
+          "Brushtail.FontAwesome.Blazor": {
+            "target": "Package",
+            "version": "[1.0.16, )"
+          },
+          "Mikrotik.Net": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           }
         },
         "imports": [

@@ -67,6 +67,14 @@
             "Blazorise.Icons.FontAwesome": {
               "target": "Package",
               "version": "[1.3.*, )"
+            },
+            "Brushtail.FontAwesome.Blazor": {
+              "target": "Package",
+              "version": "[1.0.16, )"
+            },
+            "Mikrotik.Net": {
+              "target": "Package",
+              "version": "[1.3.0, )"
             }
           },
           "imports": [

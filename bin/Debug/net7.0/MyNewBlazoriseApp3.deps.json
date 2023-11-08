@@ -12,7 +12,8 @@
           "Blazorise.Bootstrap5": "1.3.2",
           "Blazorise.Charts": "1.3.2",
           "Blazorise.Charts.Streaming": "1.3.2",
-          "Blazorise.Icons.FontAwesome": "1.3.2"
+          "Blazorise.Icons.FontAwesome": "1.3.2",
+          "Brushtail.FontAwesome.Blazor": "1.0.16"
         },
         "runtime": {
           "MyNewBlazoriseApp3.dll": {}
@@ -96,6 +97,22 @@
           "lib/net7.0/Blazorise.Licensing.dll": {
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Brushtail.FontAwesome.Blazor/1.0.16": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.12",
+          "Microsoft.Extensions.FileProviders.Embedded": "7.0.12"
+        },
+        "runtime": {
+          "lib/net7.0/Brushtail.FontAwesome.Blazor.dll": {
+            "assemblyVersion": "1.0.16.0",
+            "fileVersion": "1.0.16.0"
+          },
+          "lib/net7.0/Brushtail.FontAwesome.Core.dll": {
+            "assemblyVersion": "1.0.16.0",
+            "fileVersion": "1.0.16.0"
           }
         }
       },
@@ -184,6 +201,22 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/7.0.12": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1223.47922"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -930,6 +963,13 @@
       "path": "blazorise.licensing/1.1.0",
       "hashPath": "blazorise.licensing.1.1.0.nupkg.sha512"
     },
+    "Brushtail.FontAwesome.Blazor/1.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9LbPDT3lVjyoDu8J20FPlHL+n/1VcE+DE4AQ+Dfp7nLgbiD8coStdN7JSbDFax+bKCsYlSqkV7u0i9vhw3qzng==",
+      "path": "brushtail.fontawesome.blazor/1.0.16",
+      "hashPath": "brushtail.fontawesome.blazor.1.0.16.nupkg.sha512"
+    },
     "DeepCloner/0.10.4": {
       "type": "package",
       "serviceable": true,
@@ -999,6 +1039,20 @@
       "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NyawiW9ZT/liQb34k9YqBSNPLuuPkrjMgQZ24Y/xXX1RoiBkLUdPMaQTmxhZ5TYu8ZKZ9qayzil75JX95vGQUg==",
+      "path": "microsoft.extensions.fileproviders.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/7.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Af3M929S/v2NIBfYxRAp+muDKm3nn6KLbtFuFRm0Q6yZKIC/lQovmUHL5c7sycbMjo/gpmR+6w5IcLS/FEm+pw==",
+      "path": "microsoft.extensions.fileproviders.embedded/7.0.12",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.7.0.12.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
       "type": "package",
