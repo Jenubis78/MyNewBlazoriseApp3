@@ -11,6 +11,7 @@ public class Startup
     public void ConfigureServices( IServiceCollection services )
     {
         services.AddRazorPages();
+        
         services.AddServerSideBlazor();
 
         services.AddServerSideBlazor().AddHubOptions( ( o ) =>

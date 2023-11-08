@@ -1,4 +1,6 @@
 
+@using MikrotikDotNet
+
 <LineChart Size=Small @ref="@horizontalLineChart" TItem="LiveDataPoint" OptionsObject="@horizontalLineChartOptions">
     <ChartStreaming @ref="@chartStreaming"
                     TItem="LiveDataPoint"
@@ -11,8 +13,8 @@
     <Column>
    
         <Button Clicked="@(async () => await Play())"><FontAwesomeIcon Icon="@FontAwesome.Play" Class="@playclass" /></Button>
-        <Button Clicked="@(async () => await Pause())"><FontAwesomeIcon Icon="@FontAwesome.Pause" Class="@pauseclass"/></Button>
-    
+        
+        <Button Color="Color.Primary" Clicked="@(async () => await GetIntBw())">Redraw</Button> @bw
     
         
         
@@ -27,7 +29,25 @@
 
     string pauseclass = "fa-solid ";
     string playclass = "fa-solid fa-fade" ;
+ string bw="0";
+    /* using (var conn = new MKConnection(IPADDRESS, USERNAME, PASSWORD))
+{
+     conn.Open();
+     <Button Clicked="@(async () => await Pause())"><FontAwesomeIcon Icon="@FontAwesome.Pause" Class="@pauseclass"/></Button>
+     var cmd = conn.CreateCommand("ip address print where address=172.16.0.1/30");
+     var result = cmd.ExecuteReader();
+     foreach (var line in result)
+          Console.WriteLine(line);
+          }
+*/
 
+async Task GetIntBw(){
+ MKConnection conn =new MKConnection("192.168.1.254","admin","Zm4fe9hq");
+conn.Open();
+var cmd = conn.CreateCommand("interface monitor-traffic sfp-sfpplus2");
+var result = cmd.ExecuteReader();
+bw = result.FirstOrDefault();
+}
   /*  @if(chartStreaming.Options.Pause.Value==false){
         <Button Clicked="@(()=>chartStreaming.Play())"><FontAwesomeIcon Icon="@FontAwesome.Play" Class="fa-solid fa-fade" /></Button>
         <Button Clicked="@(()=>chartStreaming.Pause())"><FontAwesomeIcon Icon="@FontAwesome.Pause" Class="fa-solid"/></Button>
@@ -41,7 +61,7 @@
     List<string> backgroundColors = new List<string> { ChartColor.FromRgba( 255, 99, 132, 0.2f ), ChartColor.FromRgba( 54, 162, 235, 0.2f ), ChartColor.FromRgba( 255, 206, 86, 0.2f ), ChartColor.FromRgba( 75, 192, 192, 0.2f ), ChartColor.FromRgba( 153, 102, 255, 0.2f ), ChartColor.FromRgba( 255, 159, 64, 0.2f ) };
     List<string> borderColors = new List<string> { ChartColor.FromRgba( 255, 99, 132, 1f ), ChartColor.FromRgba( 54, 162, 235, 1f ), ChartColor.FromRgba( 255, 206, 86, 1f ), ChartColor.FromRgba( 75, 192, 192, 1f ), ChartColor.FromRgba( 153, 102, 255, 1f ), ChartColor.FromRgba( 255, 159, 64, 1f ) };
 async Task Pause() {
-    
+    Console.WriteLine("Version: {0}", Environment.Version.ToString());
     await chartStreaming.Pause();
    pauseclass = "fa-solid fa-fade";
    playclass = "fa-solid";
@@ -54,6 +74,7 @@ async Task Play() {
     await chartStreaming.Play();
    playclass = "fa-solid fa-fade";
    pauseclass = "fa-solid";
+   Console.WriteLine("Version: {0}", Environment.Version.ToString());
          this.StateHasChanged();
      
 } 

@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyNewBlazoriseApp3
+build_property.RootNamespace = MyNewBlazoriseApp3
+build_property.ProjectDir = C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Jenubis\Projects\MyNewBlazoriseApp3\MyNewBlazoriseApp3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/Layout/Dashboard/BandwithDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRGFzaGJvYXJkXEJhbmR3aXRoRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/Layout/FooterMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/Layout/SideMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU2lkZU1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/Layout/TopMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVG9wTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/LiveDashboard/LiveDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaXZlRGFzaGJvYXJkXExpdmVEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/TodoApp/TodoItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvQXBwXFRvZG9JdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/TodoApp/TodoItems.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb2RvQXBwXFRvZG9JdGVtcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Layouts/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0c1xNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Pages/SimpleFormPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2ltcGxlRm9ybVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Pages/TodoAppPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb0FwcFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Components/Layout/ThemeColorSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVGhlbWVDb2xvclNlbGVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xj8yvelu72
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jenubis/Projects/MyNewBlazoriseApp3/MyNewBlazoriseApp3/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

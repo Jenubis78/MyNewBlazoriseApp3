@@ -1,5 +1,6 @@
 ﻿@using MyNewBlazoriseApp3.Components.Layout.Dashboard
 @using MyNewBlazoriseApp3.Components.LiveDashboard
+@using MikrotikDotNet
 @page "/apps/todo"
 <Row>
     <Column ColumnSize="ColumnSize.Is4">
@@ -9,3 +10,31 @@
 <BandwithDashboard  />
 </Column>
 </Row>
+<Row>
+    <Column>
+<Button Color="Color.Primary" Clicked="@(async () => await GetIntBw())">Redraw</Button> @bw
+    </Column>
+</Row>
+
+@code{
+
+
+    string bw="0";
+    /* using (var conn = new MKConnection(IPADDRESS, USERNAME, PASSWORD))
+{
+     conn.Open();
+     var cmd = conn.CreateCommand("ip address print where address=172.16.0.1/30");
+     var result = cmd.ExecuteReader();
+     foreach (var line in result)
+          Console.WriteLine(line);
+          }
+*/
+
+async Task GetIntBw(){
+ MKConnection conn =new MKConnection("192.168.1.254","admin","Zm4fe9hq");
+conn.Open();
+var cmd = conn.CreateCommand("interface monitor-traffic sfp-sfpplus2");
+var result = cmd.ExecuteReader();
+bw = result.FirstOrDefault();
+}
+}
